@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.navbar,.main-header{
+    background-color: #f5f7fa; 
+}
+.navbar {
+    width: 100%;
+    height: 84px;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 154px;
+    height: 24px;
+}
+.navbar .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-menu,
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.navbar-menu li {
+    color: #18191f;
+    font-weight: 500;
+    line-height: 24px;
+}
+.login-btn {
+    color: #4caf4f;
+    text-decoration: none;
+    width: 77px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 20px;
+}
+.signup-btn {
+    background-color: #4caf4f;
+    text-decoration: none;
+    color: #fff;
+    width: 91px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.main-header .container {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header-content {
+    width: 48%;
+}
+.main-header-content h1 {
+    color: #4d4d4d;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+}
+.main-header-content h1 span {
+    color: #4caf4f;
+}
+.main-header-img {
+    width: 35%;
+}
+.main-header-img img {
+    width: 100%;
+}
+.main-header-text,.clients-subheader{
+    color: #717171;
+    margin-top: 20px;
+}
+.main-header-btn{
+    width: 128px;
+    height: 52px;
+    background-color: #4caf4f;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.clients-section .container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center; /* Mərkəzləşdirmək üçün əlavə edildi */
+}
+.clients-section h2 {
+    color: #4d4d4d;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center; /* Mərkəzləşdirmək üçün əlavə edildi */
+}
